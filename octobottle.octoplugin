@@ -1,0 +1,13 @@
+[Core]
+Name = Octo Bottle
+Module = octobottle
+
+[Config]
+Enable = True
+# Server address to bind to. Pass 0.0.0.0 to listen on all interfaces.
+Host = 127.0.0.1
+# Server port to bind to. Values below 1024 typically require root privileges.
+Port = 8080
+# Server adapter to use. For a list of supported adapters, see
+# http://bottlepy.org/docs/dev/deployment.html#switching-the-server-backend
+Server = wsgiref
